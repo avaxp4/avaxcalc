@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  color: #00ff41;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* تحسين شكل شريط التمرير */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #001a00;
+}
+::-webkit-scrollbar-thumb {
+  background: #003b00;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff41;
+}
+
+/* كلاسات مخصصة لـ LaTeX */
+.katex-display {
+  margin: 1em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px;
+}
