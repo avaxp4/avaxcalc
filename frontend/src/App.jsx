@@ -4,7 +4,7 @@ import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
 import { Terminal, Activity, ChevronRight, Calculator, Triangle, Settings, Delete, X, ExternalLink, ArrowLeft, MessageCircle, Send } from 'lucide-react';
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://ali766-avaxcalc.hf.space";
 
 // ========================================================
 // 1. STANDALONE CHART COMPONENT
